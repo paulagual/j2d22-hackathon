@@ -64,9 +64,11 @@ Después de analizar las diferentes features y realizar diferentes modelos. Se h
 final, con un modelo final con una f1-score(macro) de 93.
 
 **Confusion Matrix**
+
 ![confusion matrix](https://github.com/paulagual/j2d22-hackathon/blob/main/img/confusion-matrix.png)
 
 **f1 score**
+
 ![f1 score](https://github.com/paulagual/j2d22-hackathon/blob/main/img/f1-score.png)
 
 
@@ -82,19 +84,24 @@ básicamente las analizaremos segun sus valores.
 Con el análisis de la target, vemos que está balanceada.
 
 **Target Balanceada**
+
 ![Target Balanceda](https://github.com/paulagual/j2d22-hackathon/blob/main/img/balanced-target.png)
 
 Con el analísis multivariantes de las features y la target, vemos que lLas features 7 y 8 parecen ser 
 las que tienen menos diferencias a la hora de comprarlas con las difrentes labels.
 
 **Violin Plot Feature 7**
+
 ![Violin Plot 7](https://github.com/paulagual/j2d22-hackathon/blob/main/img/violin-plot7.png)
 
 **Violin Plot Feature 8**
+
 ![Violin PLot 8](https://github.com/paulagual/j2d22-hackathon/blob/main/img/violin-plot8.png)
 
 En el análisis de correlaciones, vemos que las features 5 y 6 están bastante correlacionadas (-0.85), y podrían 
 dar problemas de colinearidad.
+
+**Triangulo Correlacion**
 
 ![Triangulo correlacion](https://github.com/paulagual/j2d22-hackathon/blob/main/img/correlation.png)
 
