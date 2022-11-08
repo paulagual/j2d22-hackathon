@@ -55,3 +55,47 @@ La calidad de la predicción se medirá a partir del f1-score(macro).
 
 
 # Problem
+
+El problema a resolver es la predicción de las labels del archivo test.
+
+
+<a name="results"></a>
+
+
+# Results
+
+Después de analizar las diferentes features y realizar diferentes modelos. Se ha llegado a un modelo 
+final, con un modelo final con una f1-score(macro) de 93.
+
+<a name="analysis"></a>
+
+
+# Analysis
+
+Disponemos de un archivo con 8 features (las cuales no tienen un nombre descriptivo)  así que 
+básicamente las analizaremos segun sus valores.
+
+Con el análisis de la target, vemos que está balanceada.
+
+Con el analísis multivariantes de las features y la target, vemos que lLas features 7 y 8 parecen ser 
+las que tienen menos diferencias a la hora de comprarlas con las difrentes labels.
+
+En el análisis de correlaciones, vemos que las features 5 y 6 están bastante correlacionadas, y podrían 
+dar problemas de colinearidad.
+
+También análizamos la separabilidad de las clases, y vemos que parecen  bastante separables.
+
+<a name="solution"></a>
+
+
+# Solution
+
+Finalmente, para el modelado eliminamos las features 5, 7 y 8. La primera por colinearidad y las dos 
+últimas por poca influencia en la taget.
+
+Con ello generamos las predicciones de las features de test, tanto en csv con en formato json.
+
+<a name="license"></a>
+
+
+# License
