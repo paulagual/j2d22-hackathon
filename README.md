@@ -20,11 +20,7 @@ En este reto se nos presenta el siguiente escenario:
 
 ### Clasificación de la calidad del aire
 
-El Acuerdo de París es un tratado internacional sobre el cambio climático que fue adoptado por 196 Partes en la COP21 de París. Su objetivo es limitar el calentamiento mundial muy por debajo de 2, preferiblemente a 1,5 grados centígrados, en comparación con los niveles preindustriales.
-
-Para alcanzar este objetivo de temperatura a largo plazo, los países se proponen alcanzar el máximo de las emisiones de gases de efecto invernadero lo antes posible para lograr un planeta con clima neutro para mediados de siglo.
-
-Es por ello que la Unión Europea esta destinando grandes cantidades de recursos al desarrollo de nuevas tecnologías que permitan la mejorar la lucha contra la contaminación. Una de estas es un nuevo tipo de sensor basado en tecnología láser que permita detectar la calidad del aire en función de diferentes mediciones.
+La Unión Europea esta destinando grandes cantidades de recursos al desarrollo de nuevas tecnologías que permitan la mejorar la lucha contra la contaminación. Una de estas es un nuevo tipo de sensor basado en tecnología láser que permita detectar la calidad del aire en función de diferentes mediciones.
 
 ### Datasets
 
@@ -97,7 +93,7 @@ las que tienen menos diferencias a la hora de comprarlas con las difrentes label
 **Violin Plot Feature 8**
 ![Violin PLot 8](https://github.com/paulagual/j2d22-hackathon/blob/main/img/violin-plot8.png)
 
-En el análisis de correlaciones, vemos que las features 5 y 6 están bastante correlacionadas (0,85), y podrían 
+En el análisis de correlaciones, vemos que las features 5 y 6 están bastante correlacionadas (-0.85), y podrían 
 dar problemas de colinearidad.
 
 ![Triangulo correlacion](https://github.com/paulagual/j2d22-hackathon/blob/main/img/correlation.png)
