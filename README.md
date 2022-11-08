@@ -56,13 +56,13 @@ La calidad de la predicción se medirá a partir del f1-score(macro).
 
 # Problem
 
-El problema a resolver es la predicción de las labels del archivo test.
+El problema a predecir mediante un modelo de Random Forest las labels del archivo test.
 
 
 <a name="results"></a>
 
 
-# Results
+# Results
 
 Después de analizar las diferentes features y realizar diferentes modelos. Se ha llegado a un modelo 
 final, con un modelo final con una f1-score(macro) de 93.
